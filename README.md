@@ -8,6 +8,9 @@
 > **Это легитимное ПО античита, а не вредоносная программа.**  
 > Клиент создан для игроков, которые заходят на серверы с AC-X. Он не крадёт пароли, не майнит криптовалюту и не распространяется скрытно. Исходный код закрыт, чтобы усложнить обход защиты читерами.
 
+**Сайт / скачать:** [rankme.insurgency3.fun/acx](https://rankme.insurgency3.fun/acx)  
+**GitHub Releases:** [Releases](https://github.com/axotk1k1/insurgency-acx/releases)
+
 ## Зачем это нужно?
 
 На защищённых серверах клиент работает вместе с серверной частью AC-X: подтверждает, что вы играете честно, и помогает администрации реагировать на нарушения по правилам сервера.
@@ -23,11 +26,23 @@
 
 ## Как пользоваться
 
-1. Скачайте `insurgency_acx.exe` из [Releases](https://github.com/axotk1k1/insurgency-acx/releases) (последняя версия).
+1. Скачайте `insurgency_acx.exe` с [официальной страницы](https://rankme.insurgency3.fun/acx) или из [Releases](https://github.com/axotk1k1/insurgency-acx/releases) (последняя версия).
 2. Запустите клиент **до входа** на сервер с AC-X.
 3. Зайдите в Insurgency 2014 на нужный сервер — дальше клиент работает в фоне.
 
-Если Windows SmartScreen или антивирус покажет предупреждение: это бывает у новых неподписанных `.exe`. Убедитесь, что файл скачан **только** с этой страницы Releases, затем разрешите запуск (или добавьте исключение в антивирусе). Мы не распространяем клиент через сторонние зеркала.
+Если Windows SmartScreen или антивирус покажет предупреждение: это бывает у новых неподписанных `.exe`. Убедитесь, что файл скачан **только** с официальной страницы или Releases, затем разрешите запуск (или добавьте исключение в антивирусе). Мы не распространяем клиент через сторонние зеркала.
+
+## Уведомление о VirusTotal (ложные срабатывания)
+
+На [VirusTotal](https://www.virustotal.com/gui/file/cd3276fd94924359a4af300120a5c10e63be3682c211da3e8aa6d5149f8f1d1a/detection) отдельные движки могут показывать предупреждения (например **Symantec**, **Elastic**, иногда **Microsoft**).
+
+Это **не читы и не вредоносное ПО**: эвристические срабатывания машинного обучения на неподписанный NativeAOT-клиент античита, который работает с процессами игры.
+
+- Главный способ убрать такие детекты — **Authenticode-подпись** (код-сертификат). Она же снижает предупреждения Windows SmartScreen.
+- False-positive репорты отправляются вендорам (Symantec/Broadcom, Elastic, Microsoft) со ссылкой на этот репозиторий и описанием community anti-cheat.
+- Скачивайте клиент **только** с [сайта](https://rankme.insurgency3.fun/acx) или из этого репозитория Releases.
+
+Актуальный отчёт: [VirusTotal — detection](https://www.virustotal.com/gui/file/cd3276fd94924359a4af300120a5c10e63be3682c211da3e8aa6d5149f8f1d1a/detection)
 
 ## Честность и правила
 
@@ -37,7 +52,7 @@
 
 Группа в Telegram: https://t.me/insurgency2
 
-**Скачать:** [Releases](https://github.com/axotk1k1/insurgency-acx/releases) — выберите последнюю версию и загрузите `insurgency_acx.exe`.
+**Скачать:** [сайт ACX](https://rankme.insurgency3.fun/acx) · [Releases](https://github.com/axotk1k1/insurgency-acx/releases) — выберите последнюю версию и загрузите `insurgency_acx.exe`.
 
 Авторы: @)(otnik & Walson
 
@@ -46,6 +61,10 @@
 ## Notice for GitHub / antivirus vendors (EN)
 
 **Project:** AC-X (`insurgency_acx.exe`) — community anti-cheat **client** for the classic FPS game *Insurgency* (2014).
+
+**Official page:** https://rankme.insurgency3.fun/acx  
+
+**VirusTotal report:** https://www.virustotal.com/gui/file/cd3276fd94924359a4af300120a5c10e63be3682c211da3e8aa6d5149f8f1d1a/detection  
 
 **Purpose:** Fair-play enforcement on private game servers that opt into AC-X. Players install this client voluntarily to join protected servers.
 
@@ -57,6 +76,8 @@
 
 **What it is not:** ransomware, trojan, stealer, cryptominer, adware, or a drive-by downloader. It is not intended to harm the host system or exfiltrate unrelated personal data.
 
-**Distribution:** Official builds are published only as release assets named `insurgency_acx.exe` in this repository. Source is proprietary (anti-cheat integrity).
+**VirusTotal false positives:** Some engines (e.g. Symantec, Elastic, occasionally Microsoft) may flag the unsigned NativeAOT build using ML heuristics. These are **false positives** related to anti-cheat process inspection and the lack of an Authenticode signature — not malware. Code signing is the primary mitigation; we also submit FP reports to vendors.
+
+**Distribution:** Official builds are published only as release assets named `insurgency_acx.exe` in this repository, and via https://rankme.insurgency3.fun/acx. Source is proprietary (anti-cheat integrity).
 
 If this repository or release asset is flagged incorrectly as malware, please contact the maintainers via the Telegram group above or open a GitHub issue. We will cooperate with security reviews.
