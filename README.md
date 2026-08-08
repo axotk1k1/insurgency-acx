@@ -34,7 +34,7 @@
 
 ## Уведомление о VirusTotal (ложные срабатывания)
 
-На [VirusTotal](https://www.virustotal.com/gui/file/cd3276fd94924359a4af300120a5c10e63be3682c211da3e8aa6d5149f8f1d1a/detection) отдельные движки могут показывать предупреждения (например **Symantec**, **Elastic**, иногда **Microsoft**).
+На [VirusTotal](https://www.virustotal.com/gui/file/992777fb373da2485640837e21ba475f59eddb3075db558c94d75250a2291ccd) отдельные движки могут показывать предупреждения (например **Symantec**, **Elastic**, иногда **Microsoft**).
 
 Это **не читы и не вредоносное ПО**: эвристические срабатывания машинного обучения на неподписанный NativeAOT-клиент античита, который работает с процессами игры.
 
@@ -42,7 +42,7 @@
 - False-positive репорты отправляются вендорам (Symantec/Broadcom, Elastic, Microsoft) со ссылкой на этот репозиторий и описанием community anti-cheat.
 - Скачивайте клиент **только** с [сайта](https://rankme.insurgency3.fun/acx) или из этого репозитория Releases.
 
-Актуальный отчёт: [VirusTotal — detection](https://www.virustotal.com/gui/file/cd3276fd94924359a4af300120a5c10e63be3682c211da3e8aa6d5149f8f1d1a/detection)
+Актуальный отчёт: [VirusTotal — detection](https://www.virustotal.com/gui/file/992777fb373da2485640837e21ba475f59eddb3075db558c94d75250a2291ccd)
 
 ## Честность и правила
 
