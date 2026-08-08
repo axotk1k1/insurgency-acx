@@ -64,7 +64,7 @@
 
 **Official page:** https://rankme.insurgency3.fun/acx  
 
-**VirusTotal report:** https://www.virustotal.com/gui/file/cd3276fd94924359a4af300120a5c10e63be3682c211da3e8aa6d5149f8f1d1a/detection  
+**VirusTotal report:** https://www.virustotal.com/gui/file/992777fb373da2485640837e21ba475f59eddb3075db558c94d75250a2291ccd
 
 **Purpose:** Fair-play enforcement on private game servers that opt into AC-X. Players install this client voluntarily to join protected servers.
 
