@@ -34,7 +34,7 @@
 
 ## Уведомление о VirusTotal (ложные срабатывания)
 
-На [VirusTotal](https://www.virustotal.com/gui/file/992777fb373da2485640837e21ba475f59eddb3075db558c94d75250a2291ccd) отдельные движки могут показывать предупреждения (например **Symantec**, **Elastic**, иногда **Microsoft**).
+На [VirusTotal](https://www.virustotal.com/) отдельные движки могут показывать предупреждения (например **Symantec**, **Elastic**, иногда **Microsoft**).
 
 Это **не читы и не вредоносное ПО**: эвристические срабатывания машинного обучения на неподписанный NativeAOT-клиент античита, который работает с процессами игры.
 
@@ -42,7 +42,7 @@
 - False-positive репорты отправляются вендорам (Symantec/Broadcom, Elastic, Microsoft) со ссылкой на этот репозиторий и описанием community anti-cheat.
 - Скачивайте клиент **только** с [сайта](https://rankme.insurgency3.fun/acx) или из этого репозитория Releases.
 
-Актуальный отчёт: [VirusTotal — detection](https://www.virustotal.com/gui/file/992777fb373da2485640837e21ba475f59eddb3075db558c94d75250a2291ccd)
+Актуальный отчёт: [VirusTotal — detection](https://www.virustotal.com/gui/file/545b98b2fe5fa7668b57284bf0f5512e12a6ca5476def4bb3e8fa9bc591bd9b6)
 
 ## Честность и правила
 
@@ -64,7 +64,7 @@
 
 **Official page:** https://rankme.insurgency3.fun/acx  
 
-**VirusTotal report:** https://www.virustotal.com/gui/file/992777fb373da2485640837e21ba475f59eddb3075db558c94d75250a2291ccd
+**VirusTotal report:** https://www.virustotal.com/gui/file/545b98b2fe5fa7668b57284bf0f5512e12a6ca5476def4bb3e8fa9bc591bd9b6
 
 **Purpose:** Fair-play enforcement on private game servers that opt into AC-X. Players install this client voluntarily to join protected servers.
 
