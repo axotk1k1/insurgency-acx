@@ -42,7 +42,7 @@
 - False-positive репорты отправляются вендорам (Symantec/Broadcom, Elastic, Microsoft) со ссылкой на этот репозиторий и описанием community anti-cheat.
 - Скачивайте клиент **только** с [сайта](https://rankme.insurgency3.fun/acx) или из этого репозитория Releases.
 
-Актуальный отчёт: [VirusTotal — detection](https://www.virustotal.com/gui/file/66e156d1f54aef69c01c30cbe0649f90c39e9cc520ab92b4fbfdf4e305f80ced)
+Актуальный отчёт: [VirusTotal — detection](https://www.virustotal.com/gui/file/b6214d7622907e8e42378d2396a74835b148ba3a65f6f8cecd83753757fdc796)
 
 ## Честность и правила
 
@@ -64,7 +64,7 @@
 
 **Official page:** https://rankme.insurgency3.fun/acx  
 
-**VirusTotal report:** https://www.virustotal.com/gui/file/66e156d1f54aef69c01c30cbe0649f90c39e9cc520ab92b4fbfdf4e305f80ced
+**VirusTotal report:** https://www.virustotal.com/gui/file/b6214d7622907e8e42378d2396a74835b148ba3a65f6f8cecd83753757fdc796
 
 **Purpose:** Fair-play enforcement on private game servers that opt into AC-X. Players install this client voluntarily to join protected servers.
 
