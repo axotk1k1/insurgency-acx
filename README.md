@@ -1,4 +1,4 @@
-![AC-X — окно клиента](images/acx-ins.jpg)
+![AC-X — окно клиента](images/acx-ins.png)
 
 # AC-X — AI-клиент античита для Insurgency 2014
 
